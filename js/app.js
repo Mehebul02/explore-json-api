@@ -5,6 +5,8 @@ function loadPhots(){
 }
 
 function displayLoad(data){
-    console.log(data);
+    for (const user of data){
+        console.log(user)
+    }
 
 }
